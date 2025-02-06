@@ -3,7 +3,7 @@
   import { Icon } from "svelte-icons-pack";
 </script>
 
-<section class="py-24 mt-20 px-4 bg-gray-800" id="contact">
+<section class="py-20 px-4 bg-gray-800" id="contact">
   <div class="max-w-4xl mx-auto">
     <h2 class="text-3xl font-bold text-white mb-8 text-center">Get In Touch</h2>
     <p class="text-gray-400 mb-12 text-center">
