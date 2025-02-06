@@ -101,6 +101,7 @@ declare module '$env/static/private' {
 	export const HOMEBREW_PREFIX: string;
 	export const npm_config_version_git_message: string;
 	export const LOGNAME: string;
+	export const YARN_WRAP_OUTPUT: string;
 	export const npm_lifecycle_script: string;
 	export const npm_package_peerDependencies_svelte: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
@@ -124,6 +125,7 @@ declare module '$env/static/private' {
 	export const npm_node_execpath: string;
 	export const npm_package_sideEffects_0: string;
 	export const npm_config_version_tag_prefix: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -230,6 +232,7 @@ declare module '$env/dynamic/private' {
 		HOMEBREW_PREFIX: string;
 		npm_config_version_git_message: string;
 		LOGNAME: string;
+		YARN_WRAP_OUTPUT: string;
 		npm_lifecycle_script: string;
 		npm_package_peerDependencies_svelte: string;
 		VSCODE_GIT_IPC_HANDLE: string;
@@ -253,6 +256,7 @@ declare module '$env/dynamic/private' {
 		npm_node_execpath: string;
 		npm_package_sideEffects_0: string;
 		npm_config_version_tag_prefix: string;
+		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}
