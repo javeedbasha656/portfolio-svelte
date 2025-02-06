@@ -1,3 +1,7 @@
 node_modules
 yarn.lock
 /.svelte-kit
+/.netlify
+/build
+/dist
+.vercel
