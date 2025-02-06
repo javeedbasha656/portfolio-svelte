@@ -2,11 +2,11 @@
   import { workedProjects } from "$lib/shared/projectList.js";
 </script>
 
-<section class="py-20 px-4" id="projects">
+<section class="py-24 px-4" id="projects">
   <h2 class="text-3xl font-bold text-center mb-12">Projects</h2>
   <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
     {#each workedProjects as project}
-      <div 
+      <div
         class="group bg-gray-900 rounded-lg p-6 hover:transform hover:scale-110 transition-all duration-300"
       >
         <h3

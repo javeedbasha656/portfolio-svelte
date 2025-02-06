@@ -1,10 +1,8 @@
 <script lang="ts">
+  import { GeometricShape } from "../GeometricShapes/geometricShape.ts";
   import { personalInfo, technologiesList } from "$lib/shared/contactInfo.js";
   import { Icon } from "svelte-icons-pack";
-  import {
-    AiFillGithub,
-    AiFillLinkedin,
-  } from "svelte-icons-pack/ai";
+  import { AiFillGithub, AiFillLinkedin } from "svelte-icons-pack/ai";
 
   let isVisible = $state(false);
   let displayText: string = $state("");
@@ -56,6 +54,7 @@
   class="relative min-h-screen flex items-center justify-center px-4 pt-16 overflow-hidden"
   id="home"
 >
+  <GeometricShape />
   <div class="dots-container">
     <div class="dots-overlay"></div>
   </div>
